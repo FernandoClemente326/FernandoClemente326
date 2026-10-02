@@ -1,0 +1,409 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="Fernando Clemente - Ingeniería en Ciencias y Sistemas, USAC">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050217"/>
+      <stop offset="0.55" stop-color="#120731"/>
+      <stop offset="1" stop-color="#2a0d5e"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9d5ff"/>
+      <stop offset="0.5" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f0abfc" stop-opacity="1"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1000" height="280" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+
+    <!-- ================= SINTAXIS FLOTANTE REVUELTA (con deriva local, sin viajeros) ================= -->
+    <g font-family="'Courier New', Consolas, monospace" font-weight="700">
+
+      <!-- ZONA ALTA (y 15-70) -->
+      <g transform="translate(45,40)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 7,-4; 3,6; -6,2; -9,-3; -3,5; 0,0" dur="12s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="26" fill="#a78bfa" opacity="0.48">&lt;/&gt;
+            <animate attributeName="opacity" values="0.48;0.30;0.48;0.36;0.48" dur="7s" repeatCount="indefinite"/>
+          </text>
+        </g>
+      </g>
+
+      <g transform="translate(155,25)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 6,-3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#c4b5fd" opacity="0.42">{ }</text>
+        </g>
+      </g>
+
+      <g transform="translate(285,50)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 6,-3; 0,0; -5,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.44">[ ]</text>
+        </g>
+      </g>
+
+      <g transform="translate(415,25)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -6,4; 0,0; 5,-3; 0,0" dur="8.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#e879f9" opacity="0.42">&amp;&amp;</text>
+        </g>
+      </g>
+
+      <g transform="translate(545,48)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,4; 0,0; -6,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="17" fill="#f0abfc" opacity="0.42">===
+            <animate attributeName="opacity" values="0.42;0.24;0.42;0.32;0.42" dur="6s" repeatCount="indefinite"/>
+          </text>
+        </g>
+      </g>
+
+      <g transform="translate(665,22)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -7,4; 0,0; 6,-3; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="0;5;-5;0" dur="7s" repeatCount="indefinite"/>
+            <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="22" fill="#c4b5fd" opacity="0.44">::</text>
+          </g>
+        </g>
+      </g>
+
+      <g transform="translate(790,45)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 6,3; 0,0; -5,-4; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.46">@</text>
+        </g>
+      </g>
+
+      <g transform="translate(900,25)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 6,-3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#f0abfc" opacity="0.42">$</text>
+        </g>
+      </g>
+
+      <g transform="translate(965,50)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -4,4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#c4b5fd" opacity="0.40">%</text>
+        </g>
+      </g>
+
+      <!-- ZONA ALTA-MEDIA (y 70-110) -->
+      <g transform="translate(95,82)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-4; 0,0; -6,3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#a78bfa" opacity="0.38">( )</text>
+        </g>
+      </g>
+
+      <g transform="translate(220,68)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -6,4; 0,0; 7,-3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#e879f9" opacity="0.40">=&gt;</text>
+        </g>
+      </g>
+
+      <g transform="translate(350,92)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,3; 0,0; -6,-4; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.40">||</text>
+        </g>
+      </g>
+
+      <g transform="translate(475,72)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 5,-3; 0,0" dur="8.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#c4b5fd" opacity="0.42">;</text>
+        </g>
+      </g>
+
+      <g transform="translate(605,90)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 6,-4; 0,0; -5,3; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="22" fill="#f0abfc" opacity="0.42">#</text>
+        </g>
+      </g>
+
+      <g transform="translate(730,68)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,-3; 0,0; 6,4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="0;-6;6;0" dur="8s" repeatCount="indefinite"/>
+            <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="24" fill="#a78bfa" opacity="0.44">*</text>
+          </g>
+        </g>
+      </g>
+
+      <g transform="translate(855,92)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-4; 0,0; -5,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#c4b5fd" opacity="0.40">+</text>
+        </g>
+      </g>
+
+      <g transform="translate(945,70)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 5,-4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#e879f9" opacity="0.42">!</text>
+        </g>
+      </g>
+
+      <!-- ZONA MEDIA / CONTACTO CON NOMBRE (y 105-145) — opacidad reducida -->
+      <g transform="translate(40,128)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-4; 0,0; -5,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.20">?</text>
+        </g>
+      </g>
+
+      <g transform="translate(150,118)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,4; 0,0; 5,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#c4b5fd" opacity="0.18">~</text>
+        </g>
+      </g>
+
+      <g transform="translate(870,122)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -5,4; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#a78bfa" opacity="0.20">^</text>
+        </g>
+      </g>
+
+      <g transform="translate(950,140)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 5,-3; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#f0abfc" opacity="0.18">//</text>
+        </g>
+      </g>
+
+      <!-- ZONA MEDIA-BAJA (y 155-200) -->
+      <g transform="translate(55,175)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -5,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.38">-</text>
+        </g>
+      </g>
+
+      <g transform="translate(150,192)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 6,-3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#c4b5fd" opacity="0.36">--</text>
+        </g>
+      </g>
+
+      <g transform="translate(230,175)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,3; 0,0; -6,-4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#e879f9" opacity="0.38">++</text>
+        </g>
+      </g>
+
+      <g transform="translate(760,178)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -6,3; 0,0; 5,-4; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#f0abfc" opacity="0.38">!=</text>
+        </g>
+      </g>
+
+      <g transform="translate(855,192)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-4; 0,0; -5,3; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#a78bfa" opacity="0.38">==</text>
+        </g>
+      </g>
+
+      <g transform="translate(945,175)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,-4; 0,0; 5,3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#c4b5fd" opacity="0.38">&lt;=</text>
+        </g>
+      </g>
+
+      <g transform="translate(30,200)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 6,-4; 0,0; -5,3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#a78bfa" opacity="0.30">/* */</text>
+        </g>
+      </g>
+
+      <g transform="translate(970,200)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 5,-3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#e879f9" opacity="0.34">&gt;=</text>
+        </g>
+      </g>
+
+      <!-- ZONA BAJA-MEDIA (y 205-240) — opacidad reducida -->
+      <g transform="translate(120,222)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -4,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#c4b5fd" opacity="0.20">&lt;&lt;</text>
+        </g>
+      </g>
+
+      <g transform="translate(880,222)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 5,-4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#a78bfa" opacity="0.20">&gt;&gt;</text>
+        </g>
+      </g>
+
+      <g transform="translate(40,238)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,4; 0,0; -5,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#f0abfc" opacity="0.22">-&gt;</text>
+        </g>
+      </g>
+
+      <g transform="translate(960,238)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,-3; 0,0; 4,4; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="22" fill="#c4b5fd" opacity="0.22">...
+            <animate attributeName="opacity" values="0.22;0.12;0.22;0.18;0.22" dur="5s" repeatCount="indefinite"/>
+          </text>
+        </g>
+      </g>
+
+      <!-- ZONA BAJA (y 245-275) -->
+      <g transform="translate(45,262)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 6,-3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#a78bfa" opacity="0.42">( )</text>
+        </g>
+      </g>
+
+      <g transform="translate(165,250)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-4; 0,0; -5,3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#c4b5fd" opacity="0.44">{ }</text>
+        </g>
+      </g>
+
+      <g transform="translate(285,268)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -6,3; 0,0; 5,-4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#f0abfc" opacity="0.42">[ ]</text>
+        </g>
+      </g>
+
+      <g transform="translate(400,250)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,4; 0,0; -6,-3; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="17" fill="#e879f9" opacity="0.44">&lt;T&gt;</text>
+        </g>
+      </g>
+
+      <g transform="translate(520,268)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,-4; 0,0; 6,3; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.42">::</text>
+        </g>
+      </g>
+
+      <g transform="translate(640,250)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 6,-3; 0,0; -5,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="0;6;-6;0" dur="7.5s" repeatCount="indefinite"/>
+            <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="22" fill="#c4b5fd" opacity="0.44">*</text>
+          </g>
+        </g>
+      </g>
+
+      <g transform="translate(760,268)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,3; 0,0; 5,-4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#f0abfc" opacity="0.42">~</text>
+        </g>
+      </g>
+
+      <g transform="translate(875,250)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -5,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#a78bfa" opacity="0.44">?</text>
+        </g>
+      </g>
+
+      <g transform="translate(960,266)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,4; 0,0; 5,-3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="20" fill="#c4b5fd" opacity="0.42">#</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Halos de luz -->
+    <circle cx="880" cy="40" r="150" fill="#7c3aed" opacity="0.22" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.16;0.30;0.16" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="250" r="140" fill="#c026d3" opacity="0.16" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.10;0.24;0.10" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Líneas de acento superior e inferior -->
+    <rect x="0" y="0" width="1000" height="2" fill="url(#accentGrad)"/>
+    <rect x="0" y="278" width="1000" height="2" fill="url(#accentGrad)"/>
+
+    <!-- Nombre con glitch -->
+    <g font-family="'Courier New', Consolas, monospace" font-weight="700" font-size="62" text-anchor="middle" letter-spacing="4">
+      <text x="500" y="122" fill="#22d3ee" opacity="0.55">FERNANDO CLEMENTE
+        <animateTransform attributeName="transform" type="translate" values="0,0; -5,0; 3,0; 0,0; 0,0; -4,0; 0,0; 0,0; 0,0" keyTimes="0;0.03;0.06;0.09;0.5;0.53;0.56;0.8;1" dur="4s" repeatCount="indefinite"/>
+      </text>
+      <text x="500" y="122" fill="#e879f9" opacity="0.55">FERNANDO CLEMENTE
+        <animateTransform attributeName="transform" type="translate" values="0,0; 6,0; -4,0; 0,0; 0,0; 5,0; 0,0; 0,0; 0,0" keyTimes="0;0.03;0.06;0.09;0.5;0.53;0.56;0.8;1" dur="4s" repeatCount="indefinite"/>
+      </text>
+      <text x="500" y="122" fill="url(#titleGrad)" filter="url(#glow)">FERNANDO CLEMENTE</text>
+    </g>
+
+    <!-- Línea separadora extendida -->
+    <rect x="60" y="150" width="880" height="2" fill="#4c1d95" opacity="0.7"/>
+    <rect x="60" y="149" width="180" height="4" fill="url(#accentGrad)" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 700,0; 0,0" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Carrera -->
+    <text x="500" y="196" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="21" fill="#c4b5fd" letter-spacing="5" filter="url(#glow)">
+      INGENIERÍA EN CIENCIAS Y SISTEMAS
+    </text>
+
+    <!-- Universidad -->
+    <text x="500" y="232" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="15" fill="#a78bfa" letter-spacing="6">
+      UNIVERSIDAD DE SAN CARLOS DE GUATEMALA
+    </text>
+
+    <!-- Rombos decorativos -->
+    <g fill="#f0abfc">
+      <polygon points="500,248 505,253 500,258 495,253">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="472,250 475,253 472,256 469,253" opacity="0.5"/>
+      <polygon points="528,250 531,253 528,256 525,253" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Bordes redondeados -->
+  <rect x="1" y="1" width="998" height="278" rx="24" ry="24" fill="none" stroke="#7c3aed" stroke-opacity="0.65" stroke-width="2"/>
+  <rect x="4" y="4" width="992" height="272" rx="21" ry="21" fill="none" stroke="#c4b5fd" stroke-opacity="0.22" stroke-width="1"/>
+</svg>

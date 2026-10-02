@@ -1,0 +1,323 @@
+<svg width="1000" height="170" viewBox="0 0 1000 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Frases para programadores">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050217"/>
+      <stop offset="0.55" stop-color="#120731"/>
+      <stop offset="1" stop-color="#2a0d5e"/>
+    </linearGradient>
+
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f0abfc" stop-opacity="1"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1000" height="170" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif; }
+    .mono { font-family: 'Courier New',Consolas,monospace; font-weight: 700; }
+    .q { opacity: 0; animation: cycle 42s ease-in-out infinite; }
+    .d0 { animation-delay: 0s; }
+    .d1 { animation-delay: 6s; }
+    .d2 { animation-delay: 12s; }
+    .d3 { animation-delay: 18s; }
+    .d4 { animation-delay: 24s; }
+    .d5 { animation-delay: 30s; }
+    .d6 { animation-delay: 36s; }
+    @keyframes cycle {
+      0%    { opacity: 0; transform: translateY(8px); }
+      2%    { opacity: 1; transform: translateY(0); }
+      12%   { opacity: 1; transform: translateY(0); }
+      14.28%{ opacity: 0; transform: translateY(-8px); }
+      100%  { opacity: 0; }
+    }
+  </style>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1000" height="170" fill="url(#card)"/>
+
+    <!-- ================= SINTAXIS FLOTANTE (ampliada) ================= -->
+    <g font-family="'Courier New', Consolas, monospace" font-weight="700">
+
+      <!-- Franja superior (y 15-45) -->
+      <g transform="translate(35,30)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -4,4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="18" fill="#a78bfa" opacity="0.22">&lt;/&gt;</text>
+        </g>
+      </g>
+      <g transform="translate(110,45)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 5,-4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.20">{ }</text>
+        </g>
+      </g>
+      <g transform="translate(180,25)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-4; 0,0; -5,3; 0,0" dur="12s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#e879f9" opacity="0.20">[ ]</text>
+        </g>
+      </g>
+      <g transform="translate(255,48)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,3; 0,0; 4,-4; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#a78bfa" opacity="0.18">=&gt;</text>
+        </g>
+      </g>
+      <g transform="translate(330,22)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -4,3; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#f0abfc" opacity="0.20">&amp;&amp;</text>
+        </g>
+      </g>
+      <g transform="translate(410,45)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,4; 0,0; 5,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.18">||</text>
+        </g>
+      </g>
+      <g transform="translate(485,25)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -4,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#a78bfa" opacity="0.18">===</text>
+        </g>
+      </g>
+      <g transform="translate(560,48)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 5,-3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#e879f9" opacity="0.20">;</text>
+        </g>
+      </g>
+      <g transform="translate(635,22)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-4; 0,0; -4,3; 0,0" dur="11.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.20">::</text>
+        </g>
+      </g>
+      <g transform="translate(710,45)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -5,3; 0,0; 4,-4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="16" fill="#a78bfa" opacity="0.22">#</text>
+        </g>
+      </g>
+      <g transform="translate(785,25)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -5,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#f0abfc" opacity="0.20">@</text>
+        </g>
+      </g>
+      <g transform="translate(860,45)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,4; 0,0; 5,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.18">$</text>
+        </g>
+      </g>
+      <g transform="translate(935,22)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -4,4; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#a78bfa" opacity="0.20">%</text>
+        </g>
+      </g>
+
+      <!-- Franja lateral izquierda (y 60-115) -->
+      <g transform="translate(55,72)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -4,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#f0abfc" opacity="0.18">~</text>
+        </g>
+      </g>
+      <g transform="translate(35,100)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -3,4; 0,0; 4,-3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#c4b5fd" opacity="0.18">^</text>
+        </g>
+      </g>
+      <g transform="translate(70,128)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -3,4; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#a78bfa" opacity="0.18">?</text>
+        </g>
+      </g>
+
+      <!-- Franja lateral derecha (y 60-115) -->
+      <g transform="translate(940,72)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 4,-3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#e879f9" opacity="0.18">&lt;&lt;</text>
+        </g>
+      </g>
+      <g transform="translate(960,100)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 3,-3; 0,0; -4,4; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#c4b5fd" opacity="0.18">&gt;&gt;</text>
+        </g>
+      </g>
+      <g transform="translate(930,128)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 4,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#a78bfa" opacity="0.18">//</text>
+        </g>
+      </g>
+
+      <!-- Franja inferior (y 135-160) -->
+      <g transform="translate(40,150)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 5,-3; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.20">-&gt;</text>
+        </g>
+      </g>
+      <g transform="translate(120,138)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -4,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#a78bfa" opacity="0.18">...</text>
+        </g>
+      </g>
+      <g transform="translate(200,155)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,4; 0,0; 4,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#f0abfc" opacity="0.20">=&gt;</text>
+        </g>
+      </g>
+      <g transform="translate(280,140)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -5,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.18">!=</text>
+        </g>
+      </g>
+      <g transform="translate(360,155)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 5,-3; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#a78bfa" opacity="0.18">==</text>
+        </g>
+      </g>
+      <g transform="translate(440,140)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 5,-3; 0,0; -4,4; 0,0" dur="10.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#e879f9" opacity="0.20">&lt;=</text>
+        </g>
+      </g>
+      <g transform="translate(520,155)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,4; 0,0; 5,-3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.18">&gt;=</text>
+        </g>
+      </g>
+      <g transform="translate(600,140)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -4,4; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#a78bfa" opacity="0.18">++</text>
+        </g>
+      </g>
+      <g transform="translate(680,155)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 4,-4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#f0abfc" opacity="0.18">--</text>
+        </g>
+      </g>
+      <g transform="translate(760,140)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-4; 0,0; -4,3; 0,0" dur="11s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#c4b5fd" opacity="0.18">+</text>
+        </g>
+      </g>
+      <g transform="translate(840,155)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 0,0; 5,-3; 0,0" dur="9.5s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#a78bfa" opacity="0.18">*</text>
+        </g>
+      </g>
+      <g transform="translate(920,140)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 4,-3; 0,0; -4,4; 0,0" dur="10s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#e879f9" opacity="0.18">&lt;T&gt;</text>
+        </g>
+      </g>
+      <g transform="translate(970,155)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; -3,4; 0,0; 4,-3; 0,0" dur="9s" repeatCount="indefinite"/>
+          <text x="0" y="0" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#a78bfa" opacity="0.18">( )</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Halos de luz -->
+    <circle cx="880" cy="20" r="100" fill="#7c3aed" opacity="0.18" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.12;0.24;0.12" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="160" r="100" fill="#c026d3" opacity="0.12" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.08;0.18;0.08" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Líneas de acento superior e inferior -->
+    <rect x="0" y="0" width="1000" height="2" fill="url(#accentGrad)"/>
+    <rect x="0" y="168" width="1000" height="2" fill="url(#accentGrad)"/>
+
+    <!-- Barra lateral -->
+    <rect x="26" y="30" width="5" height="110" rx="2.5" fill="url(#bar)">
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Comilla decorativa -->
+    <text class="sans" x="52" y="92" font-size="84" fill="#c4b5fd" opacity="0.18" font-weight="800">"</text>
+
+    <!-- ================= FRASES ROTATIVAS ================= -->
+    <g text-anchor="middle">
+      <g class="q d0">
+        <text class="sans" x="520" y="82" font-size="26" font-style="italic" fill="#e9d5ff">Hablar es barato. Muéstrame el código.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— Linus Torvalds</text>
+      </g>
+      <g class="q d1">
+        <text class="sans" x="520" y="82" font-size="26" font-style="italic" fill="#e9d5ff">Primero resuélvelo. Luego, escribe el código.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— John Johnson</text>
+      </g>
+      <g class="q d2">
+        <text class="sans" x="520" y="82" font-size="24" font-style="italic" fill="#e9d5ff">Los programas se escriben para que las personas los lean.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— Harold Abelson</text>
+      </g>
+      <g class="q d3">
+        <text class="sans" x="520" y="82" font-size="26" font-style="italic" fill="#e9d5ff">Todo experto fue alguna vez un principiante.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— Helen Hayes</text>
+      </g>
+      <g class="q d4">
+        <text class="sans" x="520" y="82" font-size="26" font-style="italic" fill="#e9d5ff">La simplicidad es la máxima sofisticación.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— Leonardo da Vinci</text>
+      </g>
+      <g class="q d5">
+        <text class="sans" x="520" y="82" font-size="26" font-style="italic" fill="#e9d5ff">El código es poesía. Hazlo legible.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— Anónimo</text>
+      </g>
+      <g class="q d6">
+        <text class="sans" x="520" y="82" font-size="26" font-style="italic" fill="#e9d5ff">Depurar es el doble de difícil que escribir código.</text>
+        <text class="mono" x="520" y="122" font-size="16" fill="#f0abfc" letter-spacing="1">— Brian Kernighan</text>
+      </g>
+    </g>
+
+    <!-- Rombos decorativos -->
+    <g fill="#f0abfc">
+      <polygon points="500,20 505,25 500,30 495,25" opacity="0.5">
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="500,145 505,150 500,155 495,150" opacity="0.5">
+        <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+  </g>
+
+  <!-- Bordes redondeados -->
+  <rect x="1" y="1" width="998" height="168" rx="24" ry="24" fill="none" stroke="#7c3aed" stroke-opacity="0.65" stroke-width="2"/>
+  <rect x="4" y="4" width="992" height="162" rx="21" ry="21" fill="none" stroke="#c4b5fd" stroke-opacity="0.22" stroke-width="1"/>
+</svg>
